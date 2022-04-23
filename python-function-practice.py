@@ -23,9 +23,16 @@ print(mult_list(list2))
 def rev_string(my_string):
     return my_string[::-1]
 
+
 print(rev_string("MACBOOK PRO"))
 
-# def num_within():
+
+def num_within(a, b, c):
+    return a in range(b, c+1)
+
+
+print(num_within(4, 1, 4))
+print(num_within(5, 1, 4))
 
 # def pascal():
 # your code here
