@@ -5,6 +5,25 @@ def max_num(a, b, c):
 print(max_num(100, 1, 2))
 
 
+def mult_list(myList):
+    # Multiply elements one by one
+    result = 1
+    for x in myList:
+        result = result * x
+    return result
+
+
+# Driver code
+list1 = [1, 2, 3]
+list2 = [3, 2, 4]
+print(mult_list(list1))
+print(mult_list(list2))
+
+
+# def rev_string():
+
+# def num_within():
+
 # def pascal():
 # your code here
 
