@@ -20,7 +20,10 @@ print(mult_list(list1))
 print(mult_list(list2))
 
 
-# def rev_string():
+def rev_string(my_string):
+    return my_string[::-1]
+
+print(rev_string("MACBOOK PRO"))
 
 # def num_within():
 
