@@ -31,12 +31,9 @@ def num_within(a, b, c):
     return a in range(b, c+1)
 
 
-print(num_within(4, 1, 4))
-print(num_within(5, 1, 4))
-
-# def pascal():
-# your code here
-
+print(num_within(3, 2, 4))
+print(num_within(3, 1, 3))
+print(num_within(10, 2, 5))
 
 # pascal(1)
 # '''
